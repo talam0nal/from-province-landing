@@ -17,14 +17,13 @@
 		<meta property="og:title" content="From Province">
 		<meta property="og:description" content="From Province. DJ community from Russia">
 		<meta property="og:site_name" content="From Province">
-		<meta property="og:image" content=""> <!-- To do -->
+		<meta property="og:image" content="assets/images/undervog.jpg"> <!-- To do -->
 		<meta property="og:url" content="https://fromprovince.dj">
 
 		<meta http-equiv="Pragma" content="no-cache">
 
-		<link rel="preload" href="assets/fonts/MonaSansExpanded-Regular.woff2" as="font" type="font/woff2" crossorigin>
-		<link rel="icon" type="image/x-icon" href="loremipsum"> <!-- To do -->
-		<link rel="Shortcut icon" type="image/ico" href="loremipsum"> <!-- To do -->
+		<link rel="Shortcut icon" type="image/png" href="assets/imagesfavicon.png">
+		<link rel="icon" type="image/png" href="assets/images/favicon.png">
 
 		 <!-- To do: найти grid only asset -->
 		<link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -57,7 +56,7 @@
 
 			footer {
 				margin-top: 60px;
-				margin-bottom: 10rem;
+				margin-bottom: 2rem;
 			}
 
 			h1 {
@@ -86,8 +85,8 @@
 			}
 
 			img {
-				max-width: 100%;
-				border-radius: 5px;
+				max-width: 100% !important;
+				border-radius: 5px
 			}
 
 			small {
@@ -113,6 +112,20 @@
 
 			.fa-brands:hover {
 				text-decoration: none !important;
+			}
+
+			.team img {
+				width: 40%;
+			}
+
+			.cf:before,
+			.cf:after {
+			    content: " ";
+			    display: table;
+			}
+
+			.cf:after {
+			    clear: both;
 			}
 
 		</style>
@@ -173,9 +186,16 @@
 				    <br>
 
 					<h2>Our Team</h2>
-				    <p class="faded">
-				    	This section is pending
-				    </p>
+
+					<div class="row team">
+						<div class="col4">
+							<img src="assets/images/undervog.jpg" alt="Undervog" class="cf">
+						</div>
+
+						<div class="col4">
+							<img src="assets/images/vndzr.jpg" alt="vndzr" class="cf">
+						</div>
+					</div>
 
 				    <h2>Previous Events</h2>
 				    <a href="https://vk.com/event226283454" target="_blank">2024.07.06 Under @ Pro Art's</a><br>
