@@ -96,3 +96,27 @@ small {
 .cf:after {
 	clear: both;
 }
+
+.btn-reset {
+    background: transparent;
+    border: 0;
+}
+
+.lang-btn {
+    color: #bec3c9;
+    font-size: 1.1rem;
+}
+
+.icon-fix {
+    position: relative;
+    top: -4px;
+    left: 3px;
+}
+
+.fa-language {
+    font-size: 1.7em;
+}
+
+button.lang-btn:hover {
+    color: #30d5c8;
+}
