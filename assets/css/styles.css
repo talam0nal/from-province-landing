@@ -3,6 +3,7 @@
 	Github vibes right here
 **/
 
+/**
 @font-face {
   font-family: 'Mona Sans';
   src:
@@ -11,16 +12,13 @@
   font-weight: 200 900;
   font-stretch: 75% 125%;
 }
+**/
 
 html {
 	background-color: #0d1117;
 	font-family: "Mona Sans", monospace;
 	padding-left: 15px;
 	padding-right: 15px;
-}
-
-body {
-	margin-top: 30px;
 }
 
 html, body {
@@ -137,6 +135,16 @@ button.lang-btn:hover {
 
 figure.orton-effect img:first-of-type {
   position: absolute;
+  mix-blend-mode: lighten;
+  filter: blur(50px);
+  opacity: 15%;
+  width: 100%;
+  pointer-events: none;
+}
+
+figure.orton-effect-bottom img:first-of-type {
+  position: fixed;
+  bottom: -750px;;
   mix-blend-mode: lighten;
   filter: blur(50px);
   opacity: 15%;
