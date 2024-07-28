@@ -42,6 +42,8 @@ h2 {
 }
 
 h3 {
+    margin-top: .2em;
+    margin-bottom: .7em;
 	font-size: 1.4rem;
 }
 
@@ -64,6 +66,12 @@ img {
 
 small {
 	font-size: .8rem;
+}
+
+article {
+    text-align: left;
+    margin-top: 2em;
+    margin-bottom: 3em;
 }
 
 .faded {
@@ -114,8 +122,9 @@ small {
 
 .icon-fix {
     position: relative;
-    top: -1px;
+    top: -4px;
     left: 3px;
+    font-size: 1rem;
 }
 
 .fa-language {
@@ -132,6 +141,7 @@ figure.orton-effect img:first-of-type {
   filter: blur(50px);
   opacity: 15%;
   width: 100%;
+  pointer-events: none;
 }
 
 @media (max-width: 575.98px) {
