@@ -87,16 +87,6 @@ article {
 	border-radius: 1000px;
 }
 
-.cf:before,
-.cf:after {
-	content: " ";
-	display: table;
-}
-
-.cf:after {
-	clear: both;
-}
-
 .btn-reset {
     background: transparent;
     border: 0;
