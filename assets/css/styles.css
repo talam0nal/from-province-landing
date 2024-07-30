@@ -141,7 +141,7 @@ figure.orton-effect-bottom img:first-of-type {
   pointer-events: none;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 575px) {
     figure.orton-effect img:first-of-type {
         height: 3000px !important;
         opacity: 20% !important;
