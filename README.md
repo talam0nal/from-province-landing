@@ -1,1 +1,1 @@
-Landing page for the community of DJs 'From Province' <a href="https://fromprovince.online" target="_blank">https://fromprovince.online</a>
+Landing page for the community of DJs From Province <a href="https://fromprovince.online" target="_blank">https://fromprovince.online</a>
